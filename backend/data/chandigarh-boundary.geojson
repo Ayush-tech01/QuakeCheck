@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chandigarh (UT) — Operational Area",
+        "dataSource": "approximate",
+        "note": "IMPORTANT: This is a SIMPLIFIED, hand-built approximation of the Chandigarh Union Territory boundary, constructed from publicly documented reference points (UT area ~114 sq km; city center ~30.7333N 76.7794E; known edge landmarks). It is NOT an official cadastral/survey boundary and should NOT be presented to users as authoritative. Before relying on this for anything beyond MVP/demo geofencing, replace it with an authoritative source, e.g.: (1) Survey of India / Chandigarh Administration open data if available, or (2) an OpenStreetMap extract via Overpass API: `[out:json];relation[\"boundary\"=\"administrative\"][\"name\"=\"Chandigarh\"];out geom;` run from a machine with open internet access (this sandbox's network is allowlisted and can't reach Overpass/Nominatim directly).",
+        "generatedBy": "QuakeCheck Phase 1 implementation, August 2026"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [76.735, 30.775],
+            [76.760, 30.762],
+            [76.800, 30.755],
+            [76.835, 30.735],
+            [76.838, 30.712],
+            [76.800, 30.680],
+            [76.760, 30.665],
+            [76.723, 30.700],
+            [76.720, 30.745],
+            [76.735, 30.775]
+          ]
+        ]
+      }
+    }
+  ]
+}

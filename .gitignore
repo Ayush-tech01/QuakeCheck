@@ -1,0 +1,43 @@
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python test cache
+.pytest_cache/
+
+# ML datasets and generated files
+ml-service/data/
+ml-service/reports/
+routing-service/venv/
+
+# Model files - review size before uploading
