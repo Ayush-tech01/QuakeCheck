@@ -3,7 +3,7 @@
 
 QuakeCheck is a full-stack, location-based earthquake emergency and rescue coordination platform designed to support disaster response activities. It provides a centralized environment for emergency reporting, real-time monitoring, rescue team coordination, and shelter navigation.
 
-The platform connects citizens, administrators, and rescue teams through dedicated dashboards and real-time communication. It also incorporates analytical features to provide additional earthquake-related insights and support informed administrative decisions
+The platform connects citizens, administrators, and rescue teams through dedicated dashboards and real-time communication. It also incorporates analytical features to provide additional earthquake-related insights and support informed administrative decisions.
 
 ---
 
